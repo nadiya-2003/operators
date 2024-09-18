@@ -34,11 +34,7 @@ def calculate_extras():
     byes = int(input())
     leg_byes = int(input())
     penalties = int(input())
-    
-    # Calculating total runs contributed by extras
     total_extras = (no_balls) + (wides) + (byes) + (leg_byes) + (penalties * 5)
-    
-    # Output the total runs contributed by extras
     print(total_extras)
 
 if __name__ == "__main__":
