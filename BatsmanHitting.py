@@ -28,7 +28,6 @@ Sample input and output 2:
 
 
 def calculate_extras():
-    # Input for extras
     no_balls = int(input())
     wides = int(input())
     byes = int(input())
